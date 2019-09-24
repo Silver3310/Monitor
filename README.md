@@ -1,5 +1,7 @@
 # Monitor (Unhandled Orders)
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/68f6ca72e58946dea6e5b667ea978b8e)](https://www.codacy.com/manual/Silver3310/Monitor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Silver3310/Monitor&amp;utm_campaign=Badge_Grade)
+
 The repository contains all the necessary configurations to make the clean Raspberry PI work. It shows orders in real time and notifies users by a special sound when there are new ones.
 
 ## Setup
