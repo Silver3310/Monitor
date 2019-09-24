@@ -1,0 +1,11 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+
+#disable screen flash
+@xset s off dpms 0 0 0
+@xset s off -dpms
+#autostart cromium
+@python3 /home/pi/Documents/NotifySoundScript/notify_sound_unhandled_orders.py
+@/usr/bin/chromium-browser --kiosk --noerrdialogs http://crm.babah24.ru/order/unhandledorders/list --incognito --disable-translate
