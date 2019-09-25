@@ -6,9 +6,9 @@ The repository contains all the necessary configurations to make the clean Raspb
 
 ## Setup
 
-1. Make sure you have the chromium and ffmpeg being installed on your device
+ 1. Make sure you have the chromium and ffmpeg being installed on your device
 	 ```sudo apt install ffmpeg``` && ```sudo apt install chromium-browser```
 2. Copy the folder **NotifySoundScript** to the ```/home/pi/Documents/```
 3. Copy the file **autostart** to the ```/home/pi/.config/lxsession/LXDE-pi/```
-4. Disable screen sleep, open the file ```sudo nano /etc/lightdm/lightdm.conf``` and add the following lines to the [SeatDefaults] section: ```xserver-command=X -s 0 dpms```
+4. Disable screen sleep, open the file ```sudo nano /etc/lightdm/lightdm.conf``` and add the following lines to the ```[SeatDefaults]``` section: ```xserver-command=X -s 0 dpms```
 
